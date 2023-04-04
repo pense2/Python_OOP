@@ -37,7 +37,7 @@ class SavingsAccount:
 
     def withdraw_funds(self, amount):
         if(self.__balance)>=amount:
-            return self.__balance-=amount
+            return self.__balance -= amount
         else:
             return -1
 # The CD account represents a certificate of
